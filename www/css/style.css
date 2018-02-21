@@ -1,0 +1,144 @@
+
+/* default classes */
+/* default classes end */
+
+/* default component start */
+
+/* HEADER */
+
+.header .inner{
+  background: url('../img/inner.jpg') no-repeat center / cover;
+}
+.header .header-contact{
+  padding-top: 37px;
+}
+.header .header-item-adress i{
+  margin-right: 10px;
+  color: #b8955d;
+  line-height: 0.5em;
+  font-size: 22px;
+}
+.header .header-item-adress p{
+  line-height: 1.4em;
+  font-weight: 300;
+}
+.header .inner-content{
+  padding-bottom: 50px;
+}
+.header .inner-content .features-list{
+  padding-top: 120px; 
+}
+.header .inner-content .features .icon-img{
+  margin-top: 4px;
+  margin-right: 22px;
+  width: 50px;
+}
+.inner-content .features .icon-img.first-icon{
+  margin-right: 15px;
+}
+.inner-content .features span{
+  font-size: 19px;
+  line-height: 24px;
+}
+.header .inner-content .features + .features{
+  margin-top: 45px;
+}
+.header .inner-title{
+  margin: 100px 0 50px;
+}
+.inner-content .catalog{
+  position: relative;
+  padding-top: 45px;
+}
+.inner-content .catalog .catalog-img{
+  left: -60px;
+  position: absolute;
+  padding-right: 40px;
+  max-height: 191px;
+}
+.inner-content .link-catalog{
+  margin-top: 225px;
+}
+.inner-content .link-catalog a{
+  display: inline-block;
+  width: 100%;
+  border: 4px solid #b8955d;
+  font-size: 19px;
+  font-family: "Gotham Pro";
+  padding: 21px 0;
+}
+.inner-content .link-catalog a:hover{
+  color: inherit;
+  opacity: .8;
+}
+.inner-content .link-catalog a i{
+  color: #b8955d;
+  margin-left: 10px;
+}
+.inner-content .catalog .arrow{
+  bottom: 65px;
+  position: absolute;
+  left: -88px;
+}
+
+/* HEADER END */
+
+/* MAIN START */
+
+.main{
+  background: url('../img/inner-2.jpg') no-repeat center / cover;
+}
+.list-product{
+  padding: 52px 0 60px;
+  background-color: #fff;
+}
+.main .call-back{
+  padding: 90px 0 160px;
+}
+.call-back-content .title-form{
+  color: #fff;
+  font-family: "Gotham Pro medium";
+}
+.call-back-content .title-form h2{
+  font-size: 30px;
+}
+.call-back-content .title-form span{
+  color: #cdab74;
+  font-family: "Anglecia";
+}
+
+/* === form === */
+
+.form{
+  padding-top: 35px; 
+}
+.form button{
+  width: 100%;
+  height: 100%;
+  background-color: #b8955d;
+  color: #fff;
+  cursor: pointer;
+}
+.form button:hover{
+  color: #b8955d;
+  background-color: #fff;
+}
+.form input,
+.form button{
+  border: none;
+  padding: 28px 30px;
+}
+
+/* MAIN END */
+
+
+/* default component end */
+
+::-webkit-input-placeholder {font-size: 19px;}
+::-moz-placeholder          {font-size: 19px;}/* Firefox 19+ */
+:-moz-placeholder           {font-size: 19px;}/* Firefox 18- */
+:-ms-input-placeholder      {font-size: 19px;}
+::-webkit-input-placeholder {color: #c1c0c0;}
+::-moz-placeholder          {color: #c1c0c0;}/* Firefox 19+ */
+:-moz-placeholder           {color: #c1c0c0;}/* Firefox 18- */
+:-ms-input-placeholder      {color: #c1c0c0;}
